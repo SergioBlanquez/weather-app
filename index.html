@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="grid-web">
+
+        <header>
+            <h1>Weather App</h1>
+
+        </header>
+
+        <main>
+            <div id="input-area">
+                <input type="text" id="ciudadEntrada" placeholder="Enter a city name...">
+                <button id="searchBtn">SEARCH</button>
+            </div>
+            <div id="weatherData"></div>
+            <div id="forecastWeather">
+                <div class="daysContainer" id="day1Container"></div>
+                <div class="daysContainer" id="day2Container"></div>
+                <div class="daysContainer" id="day3Container"></div>
+            </div>
+
+        </main>
+        
+        <footer>
+            <div>
+                <p>Powered by <a href="https://www.weatherapi.com/" title="Weather API">WeatherAPI.com</a></p>
+                <p>Developed by &copy; Sergio Blánquez</p>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
