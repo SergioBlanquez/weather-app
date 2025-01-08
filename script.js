@@ -1,4 +1,4 @@
-let urlBase = "http://api.weatherapi.com/v1"
+let urlBase = "https://api.weatherapi.com/v1"
 let apiKey = "1ed9fbcc92b444aeb2b134902250701";
 
 document.getElementById('searchBtn').addEventListener('click', () => {
